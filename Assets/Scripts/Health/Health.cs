@@ -1,5 +1,6 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -17,12 +18,15 @@ public class Health : MonoBehaviour
     public float currentHealth { get; private set; }
     private Animator anim;
     private bool dead;
+    private Scene m_Scene;
+    private string sceneName;
 
     private void Awake()
     {
         currentHealth = startHealth;
         anim = GetComponent<Animator>();
         sprite = GetComponent<SpriteRenderer>();
+        sceneName = m_Scene.name;
     }
 
     public void TakeDamage(float _damage)
@@ -80,7 +84,8 @@ public class Health : MonoBehaviour
         anim.ResetTrigger("die");
         anim.Play("Idle");
         StartCoroutine(Invulnerability());
-        ScoreManager.instance.RemoveScore();
+        if (sceneName == "1 Level" || sceneName == "2 Level")
+            ScoreManager.instance.RemoveScore();
 
         foreach (Behaviour component in components)
             component.enabled = true;
