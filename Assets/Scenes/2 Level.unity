@@ -2446,7 +2446,7 @@ GameObject:
   - component: {fileID: 470992911}
   m_Layer: 5
   m_Name: Finish
-  m_TagString: Untagged
+  m_TagString: Finish
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3287,8 +3287,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: End, Assembly-CSharp
+      - m_Target: {fileID: 1447048965}
+        m_TargetAssemblyTypeName: LevelEnd, Assembly-CSharp
         m_MethodName: QuitGame
         m_Mode: 1
         m_Arguments:
@@ -5876,11 +5876,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5220612787935877558, guid: 3378d63c29851cd4abfccb6795766dda, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.73
+      value: -8.17
       objectReference: {fileID: 0}
     - target: {fileID: 5220612787935877558, guid: 3378d63c29851cd4abfccb6795766dda, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.51
+      value: -2.79
       objectReference: {fileID: 0}
     - target: {fileID: 5220612787935877558, guid: 3378d63c29851cd4abfccb6795766dda, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6524,6 +6524,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -7605,7 +7606,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a3fa5c2ff3b4af540b6d0e3bac44f2fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  endLevelUI: {fileID: 0}
+  endLevelUI: {fileID: 470992909}
 --- !u!61 &1447048966
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9609,8 +9610,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: End, Assembly-CSharp
+      - m_Target: {fileID: 1447048965}
+        m_TargetAssemblyTypeName: LevelEnd, Assembly-CSharp
         m_MethodName: NextLevel
         m_Mode: 1
         m_Arguments:
