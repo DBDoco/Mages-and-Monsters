@@ -3,7 +3,7 @@
   <br>
 </h1>
 
-<h4 align="center">Platformer game made with <a href="https://unity.com/" target="_blank">Unity game engine</a>.</h4>
+<h4 align="center">PC platformer game made with <a href="https://unity.com/" target="_blank">Unity game engine</a>.</h4>
 
 <p align="center">
   <img src="https://media0.giphy.com/media/RDLCaZWMgRYnIzgWqo/giphy.gif?cid=790b7611e09a4fe0ba8d298b8fe2cece2fa0dee5f604ea3c&rid=giphy.gif&ct=g" alt="mages" />
