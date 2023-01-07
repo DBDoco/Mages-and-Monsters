@@ -9,6 +9,13 @@
   <img src="https://media0.giphy.com/media/RDLCaZWMgRYnIzgWqo/giphy.gif?cid=790b7611e09a4fe0ba8d298b8fe2cece2fa0dee5f604ea3c&rid=giphy.gif&ct=g" alt="mages" />
 </p>
 
+<div align="center">
+  <h3>
+    <a href="https://simmer.io/@DBDoco/mages-and-monsters">
+      Try Live (Simmer.io)
+    </a>
+</h3>
+</div>
 
 ## IMPORTANT! Sprites, music and FX are not mine. Bellow are sources for everyting used in the game.
 
