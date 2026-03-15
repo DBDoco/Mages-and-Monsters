@@ -9,13 +9,12 @@
   <img src="https://media0.giphy.com/media/RDLCaZWMgRYnIzgWqo/giphy.gif?cid=790b7611e09a4fe0ba8d298b8fe2cece2fa0dee5f604ea3c&rid=giphy.gif&ct=g" alt="mages" />
 </p>
 
-<div align="center">
-  <h3>
-    <a href="https://simmer.io/@DBDoco/mages-and-monsters">
-      Try Live (Simmer.io)
-    </a>
-</h3>
-</div>
+## Play Now
+
+[![Play Mages and Monsters](https://img.shields.io/badge/Play%20Now-Play%20Online-blue?style=for-the-badge&logo=unity)](https://play.unity.com/en/games/721c95c0-ce60-4a0c-98db-0d57e578b5da/build)
+
+**Play the game directly in your browser!**
+
 
 ## IMPORTANT! Sprites, music and FX are not mine. Bellow are sources for everyting used in the game.
 
