@@ -37,14 +37,6 @@
 <a href="https://opengameart.org/content/512-sound-effects-8-bit-style">Hit, Death, Shoot Effects</a><br>
 <a href="https://opengameart.org/content/8-heals-and-buffs-sfx">Demon Enemy</a><br>
 
-
-## How To Play
-
-Game can be played online here: <a href="https://simmer.io/@DBDoco/mages-and-monsters">Simmer.io</a><br><br>
-
-
-..or compile it and play it that way;
-
 ## How To Compile
 
 To build the game you will have to use <a href="https://unity.com/" target="_blank">Unity game engine</a>.
